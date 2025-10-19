@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "linkedin-scraper": {
+      "command": "python",
+      "args": [
+        "/Users/tusharaggarwal/Documents/Self-Learning/mcp/src/server.py"
+      ],
+      "env": {
+        "LINKEDIN_EMAIL": "your.email@example.com",
+        "LINKEDIN_PASSWORD": "your_password"
+      }
+    }
+  }
+}
+

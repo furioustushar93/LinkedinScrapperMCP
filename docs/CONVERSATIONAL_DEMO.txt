@@ -1,0 +1,226 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║            🎉 NEW: Conversational LinkedIn Scraper! 🎉                       ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+WHAT'S NEW?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ Your LinkedIn scraper now supports CONVERSATIONS!
+
+NEW FEATURES:
+  ✅ Numbered results (#1, #2, #3...)
+  ✅ Conversation memory (remembers last 10 messages)
+  ✅ Follow-up questions
+  ✅ Context awareness
+  ✅ Natural language understanding
+
+
+EXAMPLE CONVERSATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You: Search for Python developer jobs in San Francisco
+
+💬 Gemini: I found 10 Python developer positions!
+
+📋 Found 10 job(s):
+
+1. **Senior Python Developer** at Google
+   📍 Location: San Francisco, CA
+   🔗 URL: https://linkedin.com/jobs/view/12345
+
+2. **Python Backend Engineer** at Meta
+   📍 Location: San Francisco, CA
+   🔗 URL: https://linkedin.com/jobs/view/23456
+
+3. **Full Stack Python Developer** at Stripe
+   📍 Location: San Francisco, CA
+   🔗 URL: https://linkedin.com/jobs/view/34567
+
+[... more results ...]
+
+💡 You can ask: 'Tell me more about #2' or 'What's the salary for job #3?'
+
+────────────────────────────────────────────────────────────────────────────────
+
+You: Tell me more about job #2
+
+💬 Gemini: Job #2 is the Python Backend Engineer position at Meta.
+This role focuses on building scalable backend systems for Meta's platforms.
+The team works on...
+
+────────────────────────────────────────────────────────────────────────────────
+
+You: What are the requirements?
+
+💬 Gemini: For the Python Backend Engineer at Meta, the requirements include:
+• 5+ years of Python development experience
+• Strong knowledge of distributed systems
+• Experience with PostgreSQL, Redis
+• Familiarity with microservices architecture
+
+────────────────────────────────────────────────────────────────────────────────
+
+You: Compare this with job #1
+
+💬 Gemini: Comparing Meta (#2) vs Google (#1):
+
+Google - Senior Python Developer:
+  • More senior level (8+ years)
+  • Infrastructure focus
+  • Higher compensation range
+
+Meta - Python Backend Engineer:
+  • Mid-senior level (5+ years)
+  • Backend APIs focus
+  • Competitive but slightly lower range
+
+────────────────────────────────────────────────────────────────────────────────
+
+You: Which one should I apply to?
+
+💬 Gemini: It depends on your background:
+
+If you have 8+ years experience and want infrastructure work → Google (#1)
+If you have 5-7 years and prefer backend APIs → Meta (#2)
+
+Both are excellent companies. Google might offer slightly higher compensation,
+but Meta's role focuses more on backend development which matches your query.
+
+
+HOW TO USE IT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Step 1: Start the client
+  $ python src/gemini_client.py
+
+Step 2: Search for something
+  You: Search for Python jobs in SF
+
+Step 3: Ask follow-ups naturally!
+  You: Tell me about #2
+  You: What's the salary?
+  You: Compare with #3
+  You: Which is best?
+
+
+NATURAL QUESTIONS YOU CAN ASK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+About Specific Results:
+  ✓ "Tell me more about #2"
+  ✓ "What's the salary for job #3?"
+  ✓ "More details on the second one"
+  ✓ "What are requirements for #5?"
+
+Comparisons:
+  ✓ "Compare #1 and #3"
+  ✓ "Which pays better?"
+  ✓ "What's the difference between them?"
+  ✓ "Which one is more senior?"
+
+Follow-Ups:
+  ✓ "What about the location?"
+  ✓ "How do I apply?"
+  ✓ "Is this remote?"
+  ✓ "What's their tech stack?"
+
+Context-Aware:
+  ✓ "Are they hiring?" (knows the company)
+  ✓ "Tell me more" (knows what you're asking about)
+  ✓ "What else?" (continues the topic)
+
+
+AVAILABLE COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  clear     - Clear conversation history (start fresh)
+  quit      - Exit the chat
+  exit      - Exit the chat
+
+
+WHAT IT REMEMBERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Last 10 messages in conversation
+✅ Full details of last search results
+✅ Numbers reference (#1, #2, #3...)
+✅ Context from previous questions
+
+
+EXAMPLE WORKFLOWS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Workflow 1: Job Search
+  1. Search for jobs
+  2. Ask about specific jobs
+  3. Compare options
+  4. Get application details
+
+Workflow 2: Profile Research
+  1. Find people
+  2. Review specific profiles
+  3. Compare candidates
+  4. Make decisions
+
+Workflow 3: Company Research
+  1. Get company info
+  2. Ask follow-ups
+  3. Check job openings
+  4. Research culture
+
+
+WHY THIS IS AWESOME
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Before (No Context):
+  You: Search for Python jobs
+  [Gets results]
+  You: Tell me about the second one
+  ❌ "What second one? Please provide more context."
+  
+After (With Context):
+  You: Search for Python jobs
+  [Gets numbered results]
+  You: Tell me about #2
+  ✅ "Here's detailed info about job #2..."
+
+It's NATURAL! Like talking to a person who remembers the conversation! 🎉
+
+
+TRY IT NOW!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+$ python src/gemini_client.py
+
+Try this conversation:
+  You: Search for Python jobs in San Francisco
+  You: Tell me more about #2
+  You: What's the salary?
+  You: Compare with #1
+  You: Which should I choose?
+
+
+DOCUMENTATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 CONVERSATIONAL_FEATURES.md  - Full guide with examples
+📖 GEMINI_MCP_CLIENT.md         - Setup and usage
+📖 README.md                     - Main documentation
+
+
+SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Your LinkedIn scraper is now CONVERSATIONAL! 🎉
+
+✨ Search once, ask many questions
+✨ Natural follow-ups
+✨ Context awareness
+✨ Numbered references
+✨ Memory of conversation
+
+Try it: python src/gemini_client.py
+
+═══════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,42 @@
+2025-10-18 17:06:17 | INFO     | src.utils:setup_logging - Logging initialized at INFO level
+2025-10-18 17:06:17 | INFO     | src.utils:setup_logging - Logging initialized at INFO level
+2025-10-18 17:06:17 | INFO     | __main__:main - Starting LinkedIn Scraper MCP Server
+2025-10-18 17:06:17 | INFO     | __main__:main - Server name: linkedin-scraper
+2025-10-18 17:06:17 | INFO     | __main__:main - Python version: 3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-10-18 17:06:17 | INFO     | __main__:main - Starting LinkedIn Scraper MCP Server
+2025-10-18 17:06:17 | INFO     | __main__:main - Server name: linkedin-scraper
+2025-10-18 17:06:17 | INFO     | __main__:main - Python version: 3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-10-18 17:06:18 | INFO     | src.scraper:__init__ - Initializing LinkedIn API client...
+2025-10-18 17:06:18 | INFO     | src.scraper:__init__ - Initializing LinkedIn API client...
+2025-10-18 17:06:18 | INFO     | src.utils:setup_logging - Logging initialized at INFO level
+2025-10-18 17:06:18 | INFO     | __main__:main - Starting LinkedIn Scraper MCP Server
+2025-10-18 17:06:18 | INFO     | __main__:main - Server name: linkedin-scraper
+2025-10-18 17:06:18 | INFO     | __main__:main - Python version: 3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-10-18 17:06:18 | INFO     | src.scraper:__init__ - Initializing LinkedIn API client...
+2025-10-18 17:06:20 | SUCCESS  | src.scraper:__init__ - LinkedIn API client initialized successfully
+2025-10-18 17:06:20 | INFO     | __main__:initialize_scraper - LinkedIn scraper initialized
+2025-10-18 17:06:20 | INFO     | __main__:main - Server running on stdio
+2025-10-18 17:06:21 | INFO     | src.utils:setup_logging - Logging initialized at INFO level
+2025-10-18 17:06:21 | INFO     | __main__:main - Starting LinkedIn Scraper MCP Server
+2025-10-18 17:06:21 | INFO     | __main__:main - Server name: linkedin-scraper
+2025-10-18 17:06:21 | INFO     | __main__:main - Python version: 3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]
+2025-10-18 17:06:21 | INFO     | src.scraper:__init__ - Initializing LinkedIn API client...
+2025-10-18 17:06:21 | SUCCESS  | src.scraper:__init__ - LinkedIn API client initialized successfully
+2025-10-18 17:06:21 | INFO     | __main__:initialize_scraper - LinkedIn scraper initialized
+2025-10-18 17:06:21 | INFO     | __main__:main - Server running on stdio
+2025-10-18 17:06:21 | SUCCESS  | src.scraper:__init__ - LinkedIn API client initialized successfully
+2025-10-18 17:06:21 | INFO     | __main__:initialize_scraper - LinkedIn scraper initialized
+2025-10-18 17:06:21 | INFO     | __main__:main - Server running on stdio
+2025-10-18 17:06:24 | SUCCESS  | src.scraper:__init__ - LinkedIn API client initialized successfully
+2025-10-18 17:06:24 | INFO     | __main__:initialize_scraper - LinkedIn scraper initialized
+2025-10-18 17:06:24 | INFO     | __main__:main - Server running on stdio
+2025-10-18 17:06:37 | INFO     | __main__:call_tool - Executing tool: search_linkedin_jobs
+2025-10-18 17:06:37 | INFO     | src.scraper:search_jobs - Searching jobs: keywords='Data scientist', location='None'
+2025-10-18 17:07:16 | INFO     | src.scraper:close - LinkedIn scraper session closed
+2025-10-18 17:07:16 | INFO     | __main__:<module> - Server shutdown complete
+2025-10-18 17:07:16 | INFO     | src.scraper:close - LinkedIn scraper session closed
+2025-10-18 17:07:16 | INFO     | src.scraper:close - LinkedIn scraper session closed
+2025-10-18 17:07:16 | INFO     | __main__:<module> - Server shutdown complete
+2025-10-18 17:07:16 | INFO     | src.scraper:close - LinkedIn scraper session closed
+2025-10-18 17:07:16 | INFO     | __main__:<module> - Server shutdown complete
+2025-10-18 17:07:16 | INFO     | __main__:<module> - Server shutdown complete
